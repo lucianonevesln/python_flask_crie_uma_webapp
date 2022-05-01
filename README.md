@@ -4,14 +4,16 @@
 
 ### Criar uma aplicação web utilizando o microframework Flask.
 
-## - Criando uma aplicação web super rápido;
+## Grade:
 
-## - Listando jogos usando o Flask;
+### - Criando uma aplicação web super rápido;
 
-## - Criação de um novo jogo;
+### - Listando jogos usando o Flask;
 
-## - Melhorando o código e a usabilidade;
+### - Criação de um novo jogo;
 
-## - Autenticando usuários com sessão do Flask;
+### - Melhorando o código e a usabilidade;
 
-## - Implementando autorização para criar Jogos;
+### - Autenticando usuários com sessão do Flask;
+
+### - Implementando autorização para criar Jogos;
