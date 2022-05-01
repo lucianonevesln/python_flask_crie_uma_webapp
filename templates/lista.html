@@ -1,0 +1,40 @@
+{% extends "template.html" %}
+{% block conteudo %}
+        <table class="table table-striped table-responsive table-bordered">
+            <thead class="thead-default">
+                <tr>
+                    <th>Nome</th>
+                    <th>Categoria</th>
+                    <th>Console</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                <!--
+                Diretiva para comunicacao por variavel
+                <tr>
+                    <td>{{ jogo1 }}</td>
+                </tr>
+                <tr>
+                    <td>{{ jogo2 }}</td>
+                </tr>
+                <tr>
+                    <td>{{ jogo3 }}</td>
+                </tr>
+                -->
+
+                <!--
+                Diretiva para estrutura de repeticao
+                -->
+                {% for jogo in jogos %}
+                <tr>
+                    <!-- Para renderiza os atributos dos objetos definidos em classe python -->
+                    <td>{{ jogo.nome }}</td>
+                    <td>{{ jogo.categoria }}</td>
+                    <td>{{ jogo.console }}</td>
+                </tr>
+                {% endfor %}
+
+            </tbody>
+        </table>
+{% endblock %}
