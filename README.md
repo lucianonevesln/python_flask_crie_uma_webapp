@@ -4,7 +4,7 @@
 
 ### Criar uma aplicação web utilizando o microframework Flask.
 
-## Grade:
+## Assuntos Abordados:
 
 ### - Criando uma aplicação web super rápido;
 
@@ -17,3 +17,13 @@
 ### - Autenticando usuários com sessão do Flask;
 
 ### - Implementando autorização para criar Jogos;
+
+## Tecnologias Usadas:
+
+### - Python;
+
+### - Flask;
+
+### - HTML;
+
+### - CSS/Bootstrap;
